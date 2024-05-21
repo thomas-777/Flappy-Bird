@@ -163,7 +163,7 @@ function placePipes(){
 }
 
 function moveBird(e){
-    if(e.keyCode=="Space" || e.key==" "|| e.type=='mousedown' ){
+    if(e.keyCode=="Space" || e.key==" "|| e.type=='click' ){
         velocityY=-3;
 } else if(e.keyCode==65){velocityY=-3;}
 
