@@ -73,6 +73,7 @@ window.onload=function(){
     //requestAnimationFrame(update);
     document.addEventListener("click",start);
     document.addEventListener("click",moveBird);
+    document.addEventListener("keypress",moveBird);
 
 }
 function update(){
