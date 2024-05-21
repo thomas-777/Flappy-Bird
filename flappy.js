@@ -71,8 +71,8 @@ window.onload=function(){
     context.fillText(" PRESS ANY KEY",36,boardheight/2-40);
     context.fillText("  TO START",53,boardheight/2);
     //requestAnimationFrame(update);
-    document.addEventListener("keydown",start);
-    document.addEventListener("keydown",moveBird);
+    document.addEventListener("click",start);
+    document.addEventListener("click",moveBird);
 
 }
 function update(){
@@ -178,7 +178,7 @@ if(gameover){
 function start(){
         requestAnimationFrame(update);
         setInterval(placePipes,1500);
-        document.removeEventListener("keydown",start);
+        document.removeEventListener("click",start);
 }
 
 function checkCollision(a,b){
