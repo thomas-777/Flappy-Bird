@@ -1,0 +1,14 @@
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+
+  }
+  
+  .retro-text {
+    font-family: 'PixelEmulator', sans-serif;
+  }
+  
+#board{
+    background-image: url("./flappybirdbg.png");
+}
